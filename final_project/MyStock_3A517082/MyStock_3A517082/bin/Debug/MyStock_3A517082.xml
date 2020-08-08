@@ -1,0 +1,494 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyStock_3A517082
+</name>
+</assembly>
+<members>
+<member name="T:MyStock_3A517082.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MyStock_3A517082.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MyStock_3A517082.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.DataSet1.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.DataSet1.DataTable2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.DataSet1.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.DataSet1.DataTable2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.DataSet1.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.DataSet1.DataTable2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="M:MyStock_3A517082.FmMain.SyncAdminUsers">
+ <summary>
+ 檢查使用者代碼資料表是否有ADMIN的使用者
+ </summary>
+ <remarks>若是ADMIN的使用者且無使用者資料時;則新增使用者資料與帳號密碼(default:ID='ADMIN';PASSWORD='ADMIN')</remarks>
+</member>
+<member name="M:MyStock_3A517082.FmMain.OpenForm(System.Windows.Forms.Form)">
+ <summary>
+ 顯示執行表單
+ </summary>
+ <param name="mForm">要執行表單的名稱</param>
+ <remarks></remarks>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.employeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.出貨主檔DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.出貨明細DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.供應商DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.客戶DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.訂貨主檔DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.訂貨明細DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.員工DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.帳號密碼DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.產品資料DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.產品類別DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.貨運公司DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.進貨主檔DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.進貨明細DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.employeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.出貨主檔Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.出貨明細Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.供應商Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.客戶Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.訂貨主檔Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.訂貨明細Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.員工Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.帳號密碼Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.產品資料Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.產品類別Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.貨運公司Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.進貨主檔Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.進貨明細Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.employeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.出貨主檔RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.出貨明細RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.供應商RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.客戶RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.訂貨主檔RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.訂貨明細RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.員工RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.帳號密碼RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.產品資料RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.產品類別RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.貨運公司RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.進貨主檔RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSet.進貨明細RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.employeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.出貨主檔TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.出貨明細TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.供應商TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.客戶TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.訂貨主檔TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.訂貨明細TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.員工TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.帳號密碼TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.產品資料TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.產品類別TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.貨運公司TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.進貨主檔TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.進貨明細TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MyStock_3A517082.ORDERDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MyStock_3A517082.ORDERDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MyStock_3A517082.ORDERDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MyStock_3A517082.ORDERDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MyStock_3A517082.ORDERDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MyStock_3A517082.ORDERDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MyStock_3A517082.ORDERDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MyStock_3A517082.ORDERDataSetTableAdapters.TableAdapterManager.UpdateAll(MyStock_3A517082.ORDERDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MyStock_3A517082.ORDERDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:MyStock_3A517082.PublicFunction.GetKey(System.String,System.Int32@)">
+ <summary>
+ 取得SQLCMD欄位值
+ </summary>
+ <param name="SQLCMD">SQLCMD</param>
+ <param name="INDEX">取第index欄位值</param>
+ <returns>回傳欄位值</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MyStock_3A517082.PublicFunction.GetDataTable(System.String)">
+ <summary>
+ 經由SQL指令將查詢資料存成DataTable
+ </summary>
+ <param name="SQL">SQL指令</param>
+ <returns>DataTable</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MyStock_3A517082.PublicFunction.ExecSQL(System.String)">
+ <summary>
+ 執行SQL指令，並傳回影響筆數
+ </summary>
+ <param name="SQL">SQL指令</param>
+ <returns>傳回影響筆數</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MyStock_3A517082.PublicFunction.ReQuery(System.String,System.Data.DataTable@)">
+ <summary>
+ 依照傳入的 SQL 語法載入資料給 DataTable
+ </summary>
+ <param name="SQL_String"></param>
+ <param name="gTables"></param>
+ <remarks>依照傳入的 SQL 語法載入資料給 DataTable</remarks>
+</member>
+<member name="M:MyStock_3A517082.PublicFunction.SQLWhere(System.String,System.String,System.String)">
+ <summary>
+ 回傳WHERE條件字串
+ </summary>
+ <param name="strFieldName">WHERE條件欄位名稱</param>
+ <param name="strID1">條件起始值</param>
+ <param name="strID2">條件終止值</param>
+ <returns>回傳WHERE條件字串</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MyStock_3A517082.PublicFunction.SQLWhere(System.String,System.String)">
+ <summary>
+ 回傳WHERE條件字串
+ </summary>
+ <param name="strFieldName">WHERE條件欄位名稱</param>
+ <param name="strID1">條件值</param>
+ <returns>回傳WHERE條件字串</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MyStock_3A517082.PublicFunction.StockQty(System.String,System.Int32)">
+ <summary>
+ 異動產品庫存量
+ </summary>
+ <param name="ID">產品編號</param>
+ <param name="Qty">異動庫存量</param>
+ <remarks></remarks>
+</member>
+<member name="M:MyStock_3A517082.PublicFunction.SetDGV(System.Windows.Forms.DataGridView@)">
+ <summary>
+ 設定DataGridView顯示格格與顏色
+ </summary>
+ <param name="dgv">要設定的DataGridView名稱</param>
+ <remarks></remarks>
+</member>
+<member name="M:MyStock_3A517082.出貨資料管理.SetControls">
+ <summary>
+ 設定所有控制項的ReadOnly或Enabled屬性
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:MyStock_3A517082.出貨資料管理.GetDeliverID(System.DateTime)">
+ <summary>
+ 取得當月最後出貨單號
+ </summary>
+ <param name="D">出貨日期</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:MyStock_3A517082.進貨資料管理.SetControls">
+ <summary>
+ 設定所有控制項的ReadOnly或Enabled屬性
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:MyStock_3A517082.進貨資料管理.GetDeliverID(System.DateTime)">
+ <summary>
+ 取得當月最後進貨單號
+ </summary>
+ <param name="D">進貨日期</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
